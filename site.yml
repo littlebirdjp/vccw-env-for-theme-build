@@ -10,5 +10,4 @@ plugins:
   - tinymce-templates
   - theme-check
   - wordpress-importer
-theme_unit_test: true
 linked_clone: true
