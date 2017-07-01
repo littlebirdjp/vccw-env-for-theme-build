@@ -1,13 +1,13 @@
 # VCCW Environment for Theme Build
 
-A starter kit for WordPress theme development with [VCCW](https://github.com/vccw-team/vccw).
+A starter kit for WordPress theme development with [VCCW](http://vccw.cc/).
 
 ## Feature
 
 This repository contains all functions below.
 
 - WordPress
-- _s(Starter Theme)
+- [_s](http://underscores.me/).(Starter Theme)
 - Theme Unit Test Datas
 - Useful Plugins for Theme Development
 - Multi Sites Setting(English and Japanese)
