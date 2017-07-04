@@ -50,7 +50,7 @@ Visit [http://vccw.local/](http://vccw.local/) or [http://192.168.33.99/](http:/
 
 ## Usage
 
-If there are any changes in `import.sql` on remote repository, run the below commands.
+If there are any changes in `wordpress.sql` on remote repository, run the below commands.
 
 ```
 vagrant ssh
