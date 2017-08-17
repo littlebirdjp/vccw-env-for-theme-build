@@ -2,6 +2,8 @@
 
 A starter kit for WordPress theme development with [VCCW](http://vccw.cc/).
 
+[日本語版の説明はこちら](https://github.com/littlebirdjp/vccw-env-for-theme-build/blob/master/README-ja.md)
+
 ## Feature
 
 This repository contains all functions below.
@@ -65,3 +67,29 @@ vagrant ssh
 wp db export /vagrant/wordpress.sql
 exit
 ```
+
+## Customization
+
+Unique configurations for a website are described on `site.yml`.
+Change following variables if you like.
+
+```
+hostname: vccw.local
+ip: 192.168.33.99
+multisite: true
+plugins:
+  - wp-total-hacks
+  - tinymce-templates
+  - theme-check
+  - wordpress-importer
+linked_clone: true
+```
+
+### Global configuration
+
+VCCW has a series of global parameters which work with all virtual machines.
+They can be specified on `~/.vccw/config.yml`.
+
+### Customizable variables
+
+See `provision/default.yml`.
