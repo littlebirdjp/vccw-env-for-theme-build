@@ -9,4 +9,5 @@ plugins:
   - tinymce-templates
   - theme-check
   - wordpress-importer
+  - jetpack
 linked_clone: true
