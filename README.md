@@ -48,7 +48,7 @@ You can replace `/prj/` to any other name.
 
 ### 6. Visit WordPress on the Vagrant in your browser.
 
-Visit [http://vccw.local/](http://vccw.local/) or [http://192.168.33.99/](http://192.168.33.99/)
+Visit [http://example.vccw/](http://example.vccw/) or [http://192.168.33.99/](http://192.168.33.99/)
 
 ## Usage
 
@@ -74,7 +74,7 @@ Unique configurations for a website are described on `site.yml`.
 Change following variables if you like.
 
 ```
-hostname: vccw.local
+hostname: example.vccw
 ip: 192.168.33.99
 multisite: true
 plugins:
@@ -82,6 +82,7 @@ plugins:
   - tinymce-templates
   - theme-check
   - wordpress-importer
+  - jetpack
 linked_clone: true
 ```
 

@@ -47,7 +47,7 @@ vagrant up
 
 ### 6. ブラウザでローカルのWordPressを確認
 
-[http://vccw.local/](http://vccw.local/) または [http://192.168.33.99/](http://192.168.33.99/) にアクセスしてください。
+[http://example.vccw/](http://example.vccw/) または [http://192.168.33.99/](http://192.168.33.99/) にアクセスしてください。
 
 ## 使い方
 
@@ -77,7 +77,7 @@ exit
 ドメインを変更したり、追加でプラグインやテーマをインストールする等、オプションを追加・変更したい場合は、こちらのファイルを編集してください。
 
 ```
-hostname: vccw.local
+hostname: example.vccw
 ip: 192.168.33.99
 multisite: true
 plugins:
@@ -85,6 +85,7 @@ plugins:
   - tinymce-templates
   - theme-check
   - wordpress-importer
+  - jetpack
 linked_clone: true
 ```
 
